@@ -3,22 +3,20 @@
 *{
     margin:0;
     padding:0;
+    box-sizing:border-box;
 }
 body{
     font-family:Roboto;
 }
-
+/*---------FIRST SECTION---------------*/
 #intro{
     background-color:#1f2937;
-
-
-
 }
 
 #hero-bar{
     display:flex;
     justify-content:space-between;
-    /*padding:10px 20px 20px;*/
+    padding:10px 50px 20px;
 }
 
 #logo{
@@ -41,5 +39,21 @@ body{
 }
 
 #links{
-    color:#e5e7eb
+    color:#e5e7eb;
+}
+
+ul{
+    display:flex;
+    flex-direction:row;
+    gap:16px;
+}
+
+li{
+    list-style: none;
+}
+
+h1{
+    font-size:48px;
+    color:#f9faf8;
+    font-weight:900;c
 }
