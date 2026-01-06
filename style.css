@@ -29,8 +29,8 @@ body{
     color:#f9faf8;
     background-color:gray;
     padding:16px;
-    height:100px;
-    width:200px;
+    height:200px;
+    width:400px;
     
     display:flex;
     justify-content:center;
@@ -52,8 +52,22 @@ li{
     list-style: none;
 }
 
-h1{
+#hero-main{
     font-size:48px;
     color:#f9faf8;
-    font-weight:900;c
+    font-weight:900;
+}
+
+#hero-secondary{
+    font-size:18px;
+    color:#e5e7eb;
+}
+
+#sign-up-one{
+    color:#e5e7eb;
+    background-color:#3882f6;
+    padding:10px 30px;
+    border:0;
+    border-radius:5px;
+    font-weight:600;
 }
