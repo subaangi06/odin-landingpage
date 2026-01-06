@@ -164,3 +164,52 @@ li{
     justify-content:flex-end;
     font-weight:900;
 }
+
+/*---------------FOURTH SECTION------------*/
+
+#fourth-section{
+    background-color:#f9faf8;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#container{
+    width:1200px;
+    height:150px;
+    background-color:#3882f6;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-radius:10px;
+    padding:0 150px;
+}
+
+#fourth-section-header, #fourth-section-subtext{
+    color:#f9faf8;
+}
+
+#fourth-section-header{
+    font-size:22px;
+    font-weight:700;
+}
+
+#fourth-section-subtext{
+    font-size:18;
+    font-weight:300;
+}
+
+#sign-up-two{
+    background-color:#3882f6;
+    border:1px solid #f9faf8;
+    border-radius:10px;
+    padding:10px 40px;
+    color:#f9faf8;
+    font-size:18px;
+}
+
+
+
+
+
+
