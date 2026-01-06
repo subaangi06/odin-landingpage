@@ -8,9 +8,15 @@
 body{
     font-family:Roboto;
 }
+
+#intro, #second-section, #third-section, #fourth-section{
+    min-height:50vh;
+}
 /*---------FIRST SECTION---------------*/
 #intro{
     background-color:#1f2937;
+    display:flex;
+    flex-direction:column;
 }
 
 #hero-bar{
@@ -66,8 +72,26 @@ li{
 #sign-up-one{
     color:#e5e7eb;
     background-color:#3882f6;
-    padding:10px 30px;
+    padding:10px 20px;
     border:0;
     border-radius:5px;
     font-weight:600;
+    width:100px;
 }
+
+#hero-content{
+    padding:20px 300px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex:1;
+}
+
+#hero-text{
+    max-width:450px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+/*---------------SECOND SECTION---------*/
