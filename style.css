@@ -46,6 +46,7 @@ body{
 
 #links{
     color:#e5e7eb;
+    font-size:18px;
 }
 
 ul{
@@ -95,3 +96,41 @@ li{
 }
 
 /*---------------SECOND SECTION---------*/
+#second-section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+#section-two-heading{
+    font-size:36px;
+    color:#1f2937;
+    font-weight:900;
+    margin-top:40px;
+}
+
+#images{
+    display:flex;
+    align-items:center;
+    flex:1;
+    gap:50px;
+}
+
+.square{
+    height:200px;
+    width:200px;
+    border:5px solid #3882f6;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+.image-desc{
+    width:200px;
+    text-align:center;
+}
+
+.image{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
