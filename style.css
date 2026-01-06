@@ -9,6 +9,7 @@ body{
     font-family:Roboto;
     display:flex;
     flex-direction:column;
+    justify-content: space-between;
 }
 
 #intro, #second-section, #third-section, #fourth-section{
@@ -123,7 +124,7 @@ li{
     height:200px;
     width:200px;
     border:5px solid #3882f6;
-    border-radius:10px;
+    border-radius:20px;
     margin-bottom:10px;
 }
 
@@ -181,7 +182,7 @@ li{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    border-radius:10px;
+    border-radius:20px;
     padding:0 150px;
 }
 
@@ -208,8 +209,20 @@ li{
     font-size:18px;
 }
 
+/*------------FOOTER--------------*/
 
 
+#footer{
+    background-color:#1f2937;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:10vh;
 
+}
 
+#copyright{
+    font-size:18px;
+    color:#f9faf8;
+}
 
