@@ -7,6 +7,8 @@
 }
 body{
     font-family:Roboto;
+    display:flex;
+    flex-direction:column;
 }
 
 #intro, #second-section, #third-section, #fourth-section{
@@ -22,7 +24,7 @@ body{
 #hero-bar{
     display:flex;
     justify-content:space-between;
-    padding:10px 50px 20px;
+    padding:10px 50px 0px;
 }
 
 #logo{
@@ -100,6 +102,7 @@ li{
     display:flex;
     flex-direction:column;
     align-items:center;
+    background-color:#f9faf8
 }
 
 #section-two-heading{
@@ -121,16 +124,43 @@ li{
     width:200px;
     border:5px solid #3882f6;
     border-radius:10px;
-    margin-bottom:20px;
+    margin-bottom:10px;
 }
 
 .image-desc{
     width:200px;
     text-align:center;
+    font-weight:10;
 }
 
 .image{
     display:flex;
     flex-direction:column;
     justify-content:center;
+}
+
+
+
+/*------------------THIRD SECTION-------------*/
+
+#third-section{
+    background-color:#e5e7eb;
+    display:flex;
+    flex-direction:column;
+    padding:0 300px;
+    justify-content:center;
+}
+
+#quote{
+    font-style:italic;
+    font-size:36px;
+    color:#1f2937;
+    font-weight:300;
+}
+
+#author{
+    color:#1f2937;
+    display:Flex;
+    justify-content:flex-end;
+    font-weight:900;
 }
